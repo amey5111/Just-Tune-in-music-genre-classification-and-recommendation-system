@@ -16,7 +16,7 @@ with open('label_encoder.pkl', 'rb') as f:
     label_encoder = pickle.load(f)
 
 # Jamendo API details
-JAMENDO_CLIENT_ID = '82850d63'  # Replace with your Jamendo API client_id
+JAMENDO_CLIENT_ID = st.secrets["JAMENDO_CLIENT_ID"]  
 
 # Title
 st.title("🎵 Just Tune.in")
