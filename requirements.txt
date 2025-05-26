@@ -4,4 +4,3 @@ librosa
 scikit-learn
 requests
 numpy
-python==3.10
